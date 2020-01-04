@@ -1,0 +1,28 @@
+{
+  "name": "rn-jsfileconfig",
+  "version": "1.0.0",
+  "description": "genera archivos de configuracion en formato JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamalielmendez/rn-jsfileconfig.git"
+  },
+  "keywords": [
+    "json",
+    "config",
+    "configuracion",
+    "file"
+  ],
+  "author": "Gamaliel Mendez Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamalielmendez/rn-jsfileconfig/issues"
+  },
+  "homepage": "https://github.com/gamalielmendez/rn-jsfileconfig#readme",
+  "dependencies": {
+    "react-native-fs": "^2.16.2"
+  }
+}
