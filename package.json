@@ -1,6 +1,6 @@
 {
   "name": "rn_jsfileconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "genera archivos de configuracion en formato JSON",
   "main": "index.js",
   "scripts": {
