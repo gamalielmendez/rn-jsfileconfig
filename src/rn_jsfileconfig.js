@@ -27,8 +27,11 @@ export default class rn_jsfileconfig {
 
         const Permission1=PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE
         const Permission2=PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE
-        if(!await this.requestWriteAndReadDrivePermission(message1,Permission1) ||
-           !await this.requestWriteAndReadDrivePermission(message2,Permission2)){
+
+        const res1 =await this.requestWriteAndReadDrivePermission(message1,Permission1)
+        const res2 =await this.requestWriteAndReadDrivePermission(message2,Permission2)
+        
+        if(!res1||!res2){
             this.Error='error requesting permission'
             return false
         }
